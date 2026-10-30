@@ -1,0 +1,4 @@
+name,init,activation,optimizer,lr,dropout,weight_decay,depth,width,epochs,patience,config,best_val_loss,best_val_acc,best_epoch,params
+"CIFAR - optimizer=sgd, lr=0.01",default,relu,sgd,0.01,0.0,0.0,2,512,15,3,"{'init': 'default', 'activation': 'relu', 'optimizer': 'sgd', 'lr': 0.01, 'dropout': 0.0, 'weight_decay': 0.0, 'depth': 2, 'width': 512, 'epochs': 15, 'patience': 3}",1.368423364584959,0.5204,13,1841162
+CIFAR - activation=gelu,default,gelu,adam,0.001,0.0,0.0,2,512,15,3,"{'init': 'default', 'activation': 'gelu', 'optimizer': 'adam', 'lr': 0.001, 'dropout': 0.0, 'weight_decay': 0.0, 'depth': 2, 'width': 512, 'epochs': 15, 'patience': 3}",1.4245895600017113,0.4918,10,1841162
+CIFAR - init=xavier,xavier,relu,adam,0.001,0.0,0.0,2,512,15,3,"{'init': 'xavier', 'activation': 'relu', 'optimizer': 'adam', 'lr': 0.001, 'dropout': 0.0, 'weight_decay': 0.0, 'depth': 2, 'width': 512, 'epochs': 15, 'patience': 3}",1.4796871595744845,0.4718,7,1841162
