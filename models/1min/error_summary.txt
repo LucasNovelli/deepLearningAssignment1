@@ -1,0 +1,22 @@
+baseline - Average Test Error: 180.7 minutes | Accuracy: 0.001
+init=kaiming - Average Test Error: 173.1 minutes | Accuracy: 0.002
+init=xavier - Average Test Error: 179.7 minutes | Accuracy: 0.000
+init=normal - Average Test Error: 179.7 minutes | Accuracy: 0.000
+activation=leaky_relu - Average Test Error: 180.0 minutes | Accuracy: 0.000
+activation=gelu - Average Test Error: 180.7 minutes | Accuracy: 0.001
+activation=tanh - Average Test Error: 99.6 minutes | Accuracy: 0.071
+optimizer=sgd, lr=0.1 - Average Test Error: 180.8 minutes | Accuracy: 0.000
+optimizer=sgd, lr=0.01 - Average Test Error: 180.8 minutes | Accuracy: 0.001
+optimizer=adam, lr=0.0001 - Average Test Error: 180.3 minutes | Accuracy: 0.002
+optimizer=adamw, lr=0.001 - Average Test Error: 180.7 minutes | Accuracy: 0.001
+optimizer=adamw, lr=0.0001 - Average Test Error: 179.5 minutes | Accuracy: 0.001
+dropout=0.2 - Average Test Error: 180.7 minutes | Accuracy: 0.001
+dropout=0.5 - Average Test Error: 180.7 minutes | Accuracy: 0.001
+weight_decay=0.0001 - Average Test Error: 180.7 minutes | Accuracy: 0.001
+optimizer=adamw, weight_decay=0.01 - Average Test Error: 183.0 minutes | Accuracy: 0.000
+dropout=0.2, optimizer=adamw, weight_decay=0.01 - Average Test Error: 180.7 minutes | Accuracy: 0.001
+channels=(3, 8) - Average Test Error: 180.2 minutes | Accuracy: 0.001
+channels=(16, 32) - Average Test Error: 180.9 minutes | Accuracy: 0.001
+channels=(32, 64) - Average Test Error: 179.5 minutes | Accuracy: 0.000
+kernel_size=3 - Average Test Error: 179.8 minutes | Accuracy: 0.001
+kernel_size=7 - Average Test Error: 180.1 minutes | Accuracy: 0.000

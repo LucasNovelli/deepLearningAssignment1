@@ -1,0 +1,1290 @@
+[
+ {
+  "name": "baseline",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.971778803858264,
+  "best_val_acc": 0.0044444444444444444,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.973010410732694,
+    4.971302314334445,
+    4.971033170488146
+   ],
+   "val_loss": [
+    4.971778803858264,
+    4.97321054853242,
+    4.973527365717395
+   ],
+   "val_acc": [
+    0.0044444444444444444,
+    0.006666666666666667,
+    0.0038888888888888888
+   ]
+  }
+ },
+ {
+  "name": "init=kaiming",
+  "init": "kaiming",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "kaiming",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 1.708992024947857,
+  "best_val_acc": 0.435,
+  "best_epoch": 15,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.9749860297309025,
+    4.964562702178955,
+    4.807956036461724,
+    3.997853848139445,
+    3.2320437653859457,
+    2.6556710455152723,
+    2.303271975517273,
+    2.0700956291622585,
+    1.8989152012930977,
+    1.7612042983373006,
+    1.648213448524475,
+    1.5440209054946898,
+    1.4701808971828885,
+    1.398783523241679,
+    1.3326570720142787
+   ],
+   "val_loss": [
+    4.9701085912770235,
+    4.962878638300403,
+    4.494563579559326,
+    3.6263626361715384,
+    3.0521501261612465,
+    2.650101793223414,
+    2.3733408779933534,
+    2.201285884298127,
+    2.0434740452930846,
+    2.01459186652611,
+    1.9311994478620331,
+    1.9021920993410308,
+    1.8168229974549392,
+    1.8113089923200936,
+    1.708992024947857
+   ],
+   "val_acc": [
+    0.005,
+    0.010555555555555556,
+    0.027777777777777776,
+    0.07444444444444444,
+    0.14333333333333334,
+    0.2061111111111111,
+    0.2644444444444444,
+    0.2966666666666667,
+    0.32944444444444443,
+    0.325,
+    0.36,
+    0.36444444444444446,
+    0.38055555555555554,
+    0.3933333333333333,
+    0.435
+   ]
+  }
+ },
+ {
+  "name": "init=xavier",
+  "init": "xavier",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "xavier",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.970884306677457,
+  "best_val_acc": 0.0022222222222222222,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.971406129201253,
+    4.970124992794461,
+    4.96998396343655
+   ],
+   "val_loss": [
+    4.970884306677457,
+    4.971828575791983,
+    4.972643967332511
+   ],
+   "val_acc": [
+    0.0022222222222222222,
+    0.0022222222222222222,
+    0.0022222222222222222
+   ]
+  }
+ },
+ {
+  "name": "init=normal",
+  "init": "normal",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "normal",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.970987122634361,
+  "best_val_acc": 0.0044444444444444444,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.970421943664551,
+    4.970118766360812,
+    4.969963881174723
+   ],
+   "val_loss": [
+    4.970987122634361,
+    4.971883050326643,
+    4.972731508057693
+   ],
+   "val_acc": [
+    0.0044444444444444444,
+    0.0022222222222222222,
+    0.0044444444444444444
+   ]
+  }
+ },
+ {
+  "name": "activation=leaky_relu",
+  "init": "default",
+  "activation": "leaky_relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "leaky_relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.971366685012291,
+  "best_val_acc": 0.009444444444444445,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.973260928259956,
+    4.971771738264295,
+    4.9707054053412545
+   ],
+   "val_loss": [
+    4.971366685012291,
+    4.97282782916365,
+    4.9733146470168546
+   ],
+   "val_acc": [
+    0.009444444444444445,
+    0.0077777777777777776,
+    0.005555555555555556
+   ]
+  }
+ },
+ {
+  "name": "activation=gelu",
+  "init": "default",
+  "activation": "gelu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "gelu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 1.1760897821393506,
+  "best_val_acc": 0.62,
+  "best_epoch": 15,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.973318985833062,
+    4.971435294681125,
+    4.966353020138211,
+    4.600739464230007,
+    2.776898741192288,
+    1.9585110674964057,
+    1.6030297803878784,
+    1.3336539639366998,
+    1.1698163482877943,
+    1.0010025313165454,
+    0.8877512335777282,
+    0.7665568648444282,
+    0.6631415016121335,
+    0.5922110499276055,
+    0.5041266087690989
+   ],
+   "val_loss": [
+    4.972251168612776,
+    4.972993554740117,
+    4.964175158533557,
+    3.7036094665527344,
+    2.3077935925845443,
+    1.9875573454232052,
+    1.7235150624965798,
+    1.528794424287204,
+    1.4671306240147557,
+    1.4069688607906472,
+    1.3536472854943111,
+    1.2545330647764534,
+    1.3028138362128159,
+    1.2324824723704109,
+    1.1760897821393506
+   ],
+   "val_acc": [
+    0.007222222222222222,
+    0.006111111111111111,
+    0.006111111111111111,
+    0.08777777777777777,
+    0.25222222222222224,
+    0.31444444444444447,
+    0.4061111111111111,
+    0.4477777777777778,
+    0.47555555555555556,
+    0.5061111111111111,
+    0.5188888888888888,
+    0.5611111111111111,
+    0.5655555555555556,
+    0.6105555555555555,
+    0.62
+   ]
+  }
+ },
+ {
+  "name": "activation=tanh",
+  "init": "default",
+  "activation": "tanh",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "tanh",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 1.4057902467661891,
+  "best_val_acc": 0.49666666666666665,
+  "best_epoch": 14,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.984967886606852,
+    4.948657733069526,
+    4.727033140394423,
+    4.287195983462864,
+    3.4600482728746202,
+    2.531337929831611,
+    2.0044421858257717,
+    1.6913386000527275,
+    1.4802582226859198,
+    1.2956254026624892,
+    1.147655733426412,
+    1.0082924172613357,
+    0.8787283142407735,
+    0.7689565033382839,
+    0.6559989391432868
+   ],
+   "val_loss": [
+    4.977569678734088,
+    4.910882078368088,
+    4.600098215300461,
+    4.0919045990911025,
+    2.9942201334854652,
+    2.364675283432007,
+    2.0065979587620704,
+    1.828522299898082,
+    1.6770597408557761,
+    1.599553079440676,
+    1.4990214931553807,
+    1.4882639029930378,
+    1.4408021877551902,
+    1.4057902467661891,
+    1.4168615094546615
+   ],
+   "val_acc": [
+    0.007222222222222222,
+    0.013888888888888888,
+    0.035,
+    0.07388888888888889,
+    0.21611111111111111,
+    0.3011111111111111,
+    0.37,
+    0.3977777777777778,
+    0.4261111111111111,
+    0.4527777777777778,
+    0.4711111111111111,
+    0.4677777777777778,
+    0.4855555555555556,
+    0.49666666666666665,
+    0.48833333333333334
+   ]
+  }
+ },
+ {
+  "name": "optimizer=sgd, lr=0.1",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "sgd",
+  "lr": 0.1,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "sgd",
+   "lr": 0.1,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.977107163133292,
+  "best_val_acc": 0.0022222222222222222,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.97603515625,
+    4.97500463909573,
+    4.974780059390598
+   ],
+   "val_loss": [
+    4.977107163133292,
+    4.978428495341334,
+    4.977234084030678
+   ],
+   "val_acc": [
+    0.0022222222222222222,
+    0.005555555555555556,
+    0.005
+   ]
+  }
+ },
+ {
+  "name": "optimizer=sgd, lr=0.01",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "sgd",
+  "lr": 0.01,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "sgd",
+   "lr": 0.01,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.971486486237625,
+  "best_val_acc": 0.006666666666666667,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.972376117706299,
+    4.971401352352566,
+    4.970855111016167
+   ],
+   "val_loss": [
+    4.971486486237625,
+    4.9724899324877505,
+    4.9729042875355685
+   ],
+   "val_acc": [
+    0.006666666666666667,
+    0.0038888888888888888,
+    0.0011111111111111111
+   ]
+  }
+ },
+ {
+  "name": "optimizer=adam, lr=0.0001",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.0001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.0001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.970497180675638,
+  "best_val_acc": 0.01,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.9721888732910156,
+    4.971553348965115,
+    4.971342701382107
+   ],
+   "val_loss": [
+    4.970497180675638,
+    4.970931645097403,
+    4.971010898721629
+   ],
+   "val_acc": [
+    0.01,
+    0.01,
+    0.0077777777777777776
+   ]
+  }
+ },
+ {
+  "name": "optimizer=adamw, lr=0.001",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adamw",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.971307738073941,
+  "best_val_acc": 0.007222222222222222,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.973061737484402,
+    4.971406902737088,
+    4.970940914154053
+   ],
+   "val_loss": [
+    4.971307738073941,
+    4.973453455957873,
+    4.973112681816364
+   ],
+   "val_acc": [
+    0.007222222222222222,
+    0.0038888888888888888,
+    0.0022222222222222222
+   ]
+  }
+ },
+ {
+  "name": "optimizer=adamw, lr=0.0001",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adamw",
+  "lr": 0.0001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adamw",
+   "lr": 0.0001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.970376064037454,
+  "best_val_acc": 0.01,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.972200141482883,
+    4.971554618411594,
+    4.971303350660536
+   ],
+   "val_loss": [
+    4.970376064037454,
+    4.970732113410687,
+    4.97117673939672
+   ],
+   "val_acc": [
+    0.01,
+    0.01,
+    0.007222222222222222
+   ]
+  }
+ },
+ {
+  "name": "dropout=0.2",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.2,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.2,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.971773871060075,
+  "best_val_acc": 0.0044444444444444444,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.973268758985731,
+    4.971420699225532,
+    4.971120745340983
+   ],
+   "val_loss": [
+    4.971773871060075,
+    4.973519736322864,
+    4.973951701460214
+   ],
+   "val_acc": [
+    0.0044444444444444444,
+    0.0022222222222222222,
+    0.0022222222222222222
+   ]
+  }
+ },
+ {
+  "name": "dropout=0.5",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.5,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.5,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.971702822323503,
+  "best_val_acc": 0.006666666666666667,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.973366957770454,
+    4.97138732486301,
+    4.971123689015706
+   ],
+   "val_loss": [
+    4.971702822323503,
+    4.973307001179662,
+    4.973952063198747
+   ],
+   "val_acc": [
+    0.006666666666666667,
+    0.0022222222222222222,
+    0.0022222222222222222
+   ]
+  }
+ },
+ {
+  "name": "weight_decay=0.0001",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0001,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0001,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.971823692321777,
+  "best_val_acc": 0.01,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.97302164501614,
+    4.9713754993014865,
+    4.970924843682183
+   ],
+   "val_loss": [
+    4.971823692321777,
+    4.97334153076698,
+    4.973812941847177
+   ],
+   "val_acc": [
+    0.01,
+    0.0022222222222222222,
+    0.0022222222222222222
+   ]
+  }
+ },
+ {
+  "name": "optimizer=adamw, weight_decay=0.01",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.01,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adamw",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.01,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.972789205353836,
+  "best_val_acc": 0.0077777777777777776,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.973002770741781,
+    4.97140678829617,
+    4.971169463263617
+   ],
+   "val_loss": [
+    4.972789205353836,
+    4.972945114661908,
+    4.97297216283864
+   ],
+   "val_acc": [
+    0.0077777777777777776,
+    0.006666666666666667,
+    0.0022222222222222222
+   ]
+  }
+ },
+ {
+  "name": "dropout=0.2, optimizer=adamw, weight_decay=0.01",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "dropout": 0.2,
+  "weight_decay": 0.01,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adamw",
+   "lr": 0.001,
+   "dropout": 0.2,
+   "weight_decay": 0.01,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.971671515497668,
+  "best_val_acc": 0.009444444444444445,
+  "best_epoch": 1,
+  "params": 457096,
+  "history": {
+   "train_loss": [
+    4.973142672644721,
+    4.971474367777507,
+    4.97097008811103
+   ],
+   "val_loss": [
+    4.971671515497668,
+    4.973049229589002,
+    4.973851072377172
+   ],
+   "val_acc": [
+    0.009444444444444445,
+    0.0022222222222222222,
+    0.0022222222222222222
+   ]
+  }
+ },
+ {
+  "name": "channels=(3, 8)",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   3,
+   8
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    3,
+    8
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 1.7632205157444394,
+  "best_val_acc": 0.3688888888888889,
+  "best_epoch": 14,
+  "params": 239210,
+  "history": {
+   "train_loss": [
+    4.972980762057834,
+    4.971319005754259,
+    4.970276516808404,
+    4.966171368492974,
+    4.899062966240777,
+    4.426428955925836,
+    3.7844903151194256,
+    3.131485308541192,
+    2.5750695112016464,
+    2.2183626667658487,
+    1.9660580407248602,
+    1.7913440699047511,
+    1.6601252359814114,
+    1.52783797899882,
+    1.4526566738552518
+   ],
+   "val_loss": [
+    4.974507726472,
+    4.974794371374722,
+    4.9757363056314405,
+    4.974267597856192,
+    4.786723120459195,
+    4.153308671096275,
+    3.606921639935724,
+    2.940342631833307,
+    2.5155298463229476,
+    2.2397508539002517,
+    2.1236433119609437,
+    1.9751127382804607,
+    1.8452822093305916,
+    1.7632205157444394,
+    1.789023966624819
+   ],
+   "val_acc": [
+    0.0044444444444444444,
+    0.005555555555555556,
+    0.0038888888888888888,
+    0.007222222222222222,
+    0.012777777777777779,
+    0.035555555555555556,
+    0.07944444444444444,
+    0.1638888888888889,
+    0.22444444444444445,
+    0.27055555555555555,
+    0.2861111111111111,
+    0.3227777777777778,
+    0.36944444444444446,
+    0.3688888888888889,
+    0.36666666666666664
+   ]
+  }
+ },
+ {
+  "name": "channels=(16, 32)",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   16,
+   32
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    16,
+    32
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.97355840946066,
+  "best_val_acc": 0.007222222222222222,
+  "best_epoch": 1,
+  "params": 899772,
+  "history": {
+   "train_loss": [
+    4.973063882191976,
+    4.971532230377197,
+    4.970984586079916
+   ],
+   "val_loss": [
+    4.97355840946066,
+    4.9745909098921155,
+    4.975490652281662
+   ],
+   "val_acc": [
+    0.007222222222222222,
+    0.006666666666666667,
+    0.006666666666666667
+   ]
+  }
+ },
+ {
+  "name": "channels=(32, 64)",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   32,
+   64
+  ],
+  "kernel_size": 5,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    32,
+    64
+   ],
+   "kernel_size": 5
+  },
+  "best_val_loss": 4.97398514583193,
+  "best_val_acc": 0.0033333333333333335,
+  "best_epoch": 1,
+  "params": 1802620,
+  "history": {
+   "train_loss": [
+    4.973267093234592,
+    4.971492311689588,
+    4.970901421440972
+   ],
+   "val_loss": [
+    4.97398514583193,
+    4.9747193928422595,
+    4.975183256741228
+   ],
+   "val_acc": [
+    0.0033333333333333335,
+    0.0022222222222222222,
+    0.0022222222222222222
+   ]
+  }
+ },
+ {
+  "name": "kernel_size=3",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 3,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 3
+  },
+  "best_val_loss": 4.972419590785585,
+  "best_val_acc": 0.007222222222222222,
+  "best_epoch": 1,
+  "params": 578344,
+  "history": {
+   "train_loss": [
+    4.974039431677924,
+    4.971359409756131,
+    4.970695811377631
+   ],
+   "val_loss": [
+    4.972419590785585,
+    4.973532841123384,
+    4.974874118278766
+   ],
+   "val_acc": [
+    0.007222222222222222,
+    0.007222222222222222,
+    0.007222222222222222
+   ]
+  }
+ },
+ {
+  "name": "kernel_size=7",
+  "init": "default",
+  "activation": "relu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "epochs": 15,
+  "patience": 3,
+  "channels": [
+   6,
+   16
+  ],
+  "kernel_size": 7,
+  "config": {
+   "init": "default",
+   "activation": "relu",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "dropout": 0.0,
+   "weight_decay": 0.0,
+   "epochs": 15,
+   "patience": 3,
+   "channels": [
+    6,
+    16
+   ],
+   "kernel_size": 7
+  },
+  "best_val_loss": 4.972684038096461,
+  "best_val_acc": 0.0033333333333333335,
+  "best_epoch": 1,
+  "params": 403864,
+  "history": {
+   "train_loss": [
+    4.972832139333089,
+    4.9714171536763505,
+    4.970989848242866
+   ],
+   "val_loss": [
+    4.972684038096461,
+    4.974220144337621,
+    4.974575667545714
+   ],
+   "val_acc": [
+    0.0033333333333333335,
+    0.0033333333333333335,
+    0.0033333333333333335
+   ]
+  }
+ }
+]
