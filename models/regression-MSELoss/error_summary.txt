@@ -1,0 +1,1 @@
+kernel_size=7 - Average Test Error: 179.1 minutes | Accuracy: 0.001
