@@ -1,0 +1,110 @@
+[
+ {
+  "model": "MLP",
+  "dataset": "Fashion-MNIST",
+  "name": "optimizer=sgd, lr=0.01",
+  "val_acc": 0.8943333333333333,
+  "test_acc": 0.8895,
+  "test_loss": 0.3096334755325773,
+  "params": 669706
+ },
+ {
+  "model": "MLP",
+  "dataset": "Fashion-MNIST",
+  "name": "activation=gelu",
+  "val_acc": 0.8928333333333334,
+  "test_acc": 0.8842,
+  "test_loss": 0.3227426755675085,
+  "params": 669706
+ },
+ {
+  "model": "MLP",
+  "dataset": "Fashion-MNIST",
+  "name": "init=xavier",
+  "val_acc": 0.8933333333333333,
+  "test_acc": 0.8875,
+  "test_loss": 0.32094912904842643,
+  "params": 669706
+ },
+ {
+  "model": "MLP",
+  "dataset": "CIFAR-10",
+  "name": "optimizer=sgd, lr=0.01",
+  "val_acc": 0.5204,
+  "test_acc": 0.5191,
+  "test_loss": 1.3505260150903349,
+  "params": 1841162
+ },
+ {
+  "model": "MLP",
+  "dataset": "CIFAR-10",
+  "name": "activation=gelu",
+  "val_acc": 0.4918,
+  "test_acc": 0.502,
+  "test_loss": 1.4177231257128868,
+  "params": 1841162
+ },
+ {
+  "model": "MLP",
+  "dataset": "CIFAR-10",
+  "name": "init=xavier",
+  "val_acc": 0.4718,
+  "test_acc": 0.4738,
+  "test_loss": 1.462847538814423,
+  "params": 1841162
+ },
+ {
+  "model": "CNN",
+  "dataset": "Fashion-MNIST",
+  "name": "channels=(32, 64)",
+  "val_acc": 0.9155,
+  "test_acc": 0.909,
+  "test_loss": 0.24718727123965123,
+  "params": 186110
+ },
+ {
+  "model": "CNN",
+  "dataset": "Fashion-MNIST",
+  "name": "channels=(16, 32)",
+  "val_acc": 0.9073333333333333,
+  "test_acc": 0.9079,
+  "test_loss": 0.2672783526455521,
+  "params": 85822
+ },
+ {
+  "model": "CNN",
+  "dataset": "Fashion-MNIST",
+  "name": "init=xavier",
+  "val_acc": 0.9023333333333333,
+  "test_acc": 0.8954,
+  "test_loss": 0.297616113831473,
+  "params": 44426
+ },
+ {
+  "model": "CNN",
+  "dataset": "CIFAR-10",
+  "name": "channels=(32, 64)",
+  "val_acc": 0.6812,
+  "test_acc": 0.6887,
+  "test_loss": 0.9375976126664763,
+  "params": 256830
+ },
+ {
+  "model": "CNN",
+  "dataset": "CIFAR-10",
+  "name": "channels=(16, 32)",
+  "val_acc": 0.6664,
+  "test_acc": 0.6626,
+  "test_loss": 0.968274023882143,
+  "params": 121182
+ },
+ {
+  "model": "CNN",
+  "dataset": "CIFAR-10",
+  "name": "init=xavier",
+  "val_acc": 0.612,
+  "test_acc": 0.6197,
+  "test_loss": 1.09692557260489,
+  "params": 62006
+ }
+]
