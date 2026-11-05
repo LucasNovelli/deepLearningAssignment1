@@ -1,0 +1,22 @@
+baseline - Average Test Error: 66.9 minutes
+init=kaiming - Average Test Error: 80.9 minutes
+init=xavier - Average Test Error: 62.4 minutes
+init=normal - Average Test Error: 179.2 minutes
+activation=leaky_relu - Average Test Error: 53.9 minutes
+activation=gelu - Average Test Error: 63.0 minutes
+activation=tanh - Average Test Error: 179.1 minutes
+optimizer=sgd, lr=0.1 - Average Test Error: 179.1 minutes
+optimizer=sgd, lr=0.01 - Average Test Error: 179.1 minutes
+optimizer=adam, lr=0.0001 - Average Test Error: 115.1 minutes
+optimizer=adamw, lr=0.001 - Average Test Error: 62.9 minutes
+optimizer=adamw, lr=0.0001 - Average Test Error: 114.9 minutes
+dropout=0.2 - Average Test Error: 87.1 minutes
+dropout=0.5 - Average Test Error: 97.6 minutes
+weight_decay=0.0001 - Average Test Error: 62.3 minutes
+optimizer=adamw, weight_decay=0.01 - Average Test Error: 59.9 minutes
+dropout=0.2, optimizer=adamw, weight_decay=0.01 - Average Test Error: 82.6 minutes
+channels=(3, 8) - Average Test Error: 67.0 minutes
+channels=(16, 32) - Average Test Error: 48.5 minutes
+channels=(32, 64) - Average Test Error: 46.8 minutes
+kernel_size=3 - Average Test Error: 74.0 minutes
+kernel_size=7 - Average Test Error: 59.9 minutes
