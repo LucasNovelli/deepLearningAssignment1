@@ -1,0 +1,2 @@
+name,init,activation,optimizer,lr,dropout,channels,kernel_size,epochs,patience,weight_decay,num_classes,config,best_val_loss,best_val_acc,best_epoch,params
+best,xavier,leaky_relu,adamw,0.001,0.2,"(3, 8)",5,50,10,0.0,75,"{'init': 'xavier', 'activation': 'leaky_relu', 'optimizer': 'adamw', 'lr': 0.001, 'dropout': 0.2, 'channels': (3, 8), 'kernel_size': 5, 'epochs': 50, 'patience': 10, 'weight_decay': 0.0, 'num_classes': 75}",0.8035667435876255,0.7311111111111112,50,231050
